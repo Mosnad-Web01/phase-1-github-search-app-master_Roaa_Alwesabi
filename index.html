@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset='UTF-8'/>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'/>
+  <title>GitHub Search App</title>
+  <script src='js/index.js' defer></script>
+  <link rel='stylesheet' href='index.css'/>
+</head>
+<body>
+  <div id='main'>
+    <h1>GitHub Search</h1>
+
+    <form id='github-form'>
+      <input id='search' type='text' name='search' placeholder='Enter username or repo name...'>
+      <input type='submit' name='submit'/>
+      <button id="toggle-search">Search Repos</button>
+    </form>
+
+    <div id='github-container'>
+      <ul id='user-list'></ul>
+      <ul id='repos-list'></ul>
+    </div>
+  </div>
+</body>
+</html>
